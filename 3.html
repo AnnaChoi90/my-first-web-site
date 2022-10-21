@@ -1,0 +1,49 @@
+/** html을 만드 W3c가 있 html specification은 그 설명서임
+link를 걸라고 하면 <a/a>를 쓰면되는데 이는 anchor(닻)의 첫글자임
+a href="URL주소" 하면 클릭시 주소된 사이트로 이동
+여기서 tool tip으로 새창으로 열려고 하면 target="_blank"를 해줌
+더하여 링크 클릭전에 무엇인지 알려주고 싶다면 title="간략설명"해주면> **/
+
+<!doctype html>
+<html>
+<head>
+  <title>WEB1 - Java Script</title>
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1><a href="index.html">내가 만든 시범페이지</a></h1>
+  <ol>
+    <li><a href="1.html">HTML</a></li>
+    <li><a href="2.html">CSS</a></li>
+    <li><a href="3.html">JavaScript</a></li>
+  </ol>
+/**
+li태그는 자식태그 ul태그는 부모태그 블럭씌워서 tap키 누르면 들여쓰기 됨
+ul은 Unordered List 의 약자, ol은 Ordered List의 약자(오더는 번호 알아서 매겨)
+**/
+  <h2>Java Script</h2>
+  <p>Ecma International의 프로토타입 기반의 프로그래밍 언어로, 스크립트 언어에 해당된다. 특수한 목적이 아닌 이상 모든 웹 브라우저에 인터프리터가 내장되어 있다. 오늘날 HTML, CSS와 함께 웹을 구성하는 요소 중 하나다. HTML이 웹 페이지의 기본 구조를 담당하고, CSS가 디자인을 담당한다면 JavaScript는 클라이언트 단에서 웹 페이지가 동작하는 것을 담당한다.[1] 웹 페이지를 자동차에 비유하자면, HTML은 자동차의 뼈대, CSS는 자동차의 외관, JavaScript는 자동차의 동력이라고 볼 수 있다.
+썬 마이크로시스템즈(현재 오라클)에서 개발한 Java와는 별 관계가 없는 언어이다. 이름이 비슷하다고 같은 언어가 아니다. 사람들이 흔히 헷갈리는 부분 중 하나라 Java의 소유자인 오라클에서도 아니라고 강조한다.[2] 실질적인 구동 방식도 Java Virtual Machine을 이용해서 돌리는 Java와, 브라우저 내에 스크립트 엔진(인터프리터)이 존재하는 JavaScript는 완전히 다르다. </p>
+</body>
+</html>
+
+
+/**
+<br>은 줄바꿈, /br로 마무리하지 않음
+<h1~h6/h1/h6>는 주제문, 숫자 작을수록 글씨 크게 굵게 표현
+<strong/strong>은 글자 굵게
+<p/p>문단 나누기
+
+css로 꾸미려면 태그안에 style=""로 표현
+<span style="font-size:24px">
+  coding
+  </span>
+  과 <h3>coding</h3>는 출력값으로 보면 같은 크기, 굵기의 글자로 보임
+  그러나 검색엔진에서 찾을 때 후자의 것이 정보접근성이 더 좋다(검색시 상단에 노출된다는 것)
+  따라서 HTML 의미에 맞게 정확하게 사용한다는 것은 비지니스 측면에서 매우 중요하다할 수 있음
+
+<img/img>이미지를 넣고싶다(이미지 파일은 unsplash라는 저작권없는 사진공유사이트좋음)
+여기에 <img src(source의 준말)="파일" width="100%"나 픽셀로> 해주면 됨
+src나 width는 Attribute(속성)이라고 한다. 태그 안에 세부내용인 속성은 위치가 바뀌어도 변화 없다
+**/
+12부터 다시
